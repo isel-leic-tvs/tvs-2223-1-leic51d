@@ -17,7 +17,9 @@ int main() {
 		);
 
 		puts("CHILD: exec...");
-		execlp("./prog2b", "prog2b", NULL);
+		//execlp("./prog2b", "prog2b", NULL);
+		//execlp("cat", "cat", "prog5.c", NULL);
+		execlp("echo", "echo", "leic51d", NULL);
 
 		puts(
 			"=======================\n"
